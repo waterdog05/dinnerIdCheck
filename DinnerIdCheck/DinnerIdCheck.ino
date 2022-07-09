@@ -153,11 +153,11 @@ void Ndin() {
     lcd.print(F("Didn't signed up"));
     digitalWrite(RLed, HIGH);
     tone(buzPin, 3951);
-    delay(500);
+    delay(350);
     noTone(buzPin);
-    delay(500);
+    delay(350);
     tone(buzPin, 3951);
-    delay(500);
+    delay(350);
     noTone(buzPin);
     digitalWrite(RLed, LOW);
 }
